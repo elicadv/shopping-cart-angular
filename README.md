@@ -1,27 +1,29 @@
-# ShoppingCart
+# Shopping Cart Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+Este é um projeto em Angular que simula um carrinho de compras de um e-commerce. É possível adicionar e remover produtos do carrinho, visualizar a lista de produtos adicionados e calcular o total da compra.
 
-## Development server
+O projeto foi criado com o Angular CLI e utiliza as seguintes tecnologias:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular 11
+- Bootstrap 5
+- Font Awesome 5
 
-## Code scaffolding
+## Instalação
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para executar o projeto localmente, siga estas etapas:
 
-## Build
+- Certifique-se de que possui o Node.js instalado em seu sistema.
+- Clone este repositório para sua máquina local usando o Git.
+- No terminal, navegue até o diretório raiz do projeto.
+- Execute o comando npm install para instalar todas as dependências do projeto.
+- Execute o comando ng serve para iniciar o servidor de desenvolvimento. Isso iniciará a aplicação em seu navegador padrão.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Funcionalidades
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+O carrinho de compras oferece as seguintes funcionalidades:
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Adicionar produtos ao carrinho;
+- Remover produtos do carrinho;
+- Visualizar a lista de produtos adicionados ao carrinho;
+- Calcular o total da compra;
